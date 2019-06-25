@@ -1,4 +1,3 @@
-import sun.jvm.hotspot.code.Location;
 
 public class SingleLinkedList {
     public static void main(String[] args) {
@@ -15,7 +14,8 @@ public class SingleLinkedList {
         heroList.add(hero4);
         heroList.addByOrder(hero6);
         heroList.addByOrder(hero5);
-        heroList.addByOrder(hero5);
+        HeroNode updateHeroNode = new HeroNode(6, "鲁智笙", "丈二的和尚");
+        heroList.update(updateHeroNode);
         heroList.list();
     }
 }
@@ -34,6 +34,31 @@ class SingleLinkedListStruct {
             temp = temp.next;
         }
         temp.next = heroNode;
+    }
+
+    public void update(HeroNode heroNode) {
+        if (head.next == null) {
+            System.out.println("链表为空");
+            return;
+        }
+        HeroNode temp = head.next;
+        boolean flag = false;
+        while (true) {
+            if (temp == null) {
+                break;
+            }
+            if (temp.no == heroNode.no) {
+                flag = true;
+                break;
+            }
+            temp = temp.next;
+        }
+        if (flag) {
+            temp.name = heroNode.name;
+            temp.nickname = heroNode.nickname;
+        } else {
+            System.out.println("没有查询到该节点");
+        }
     }
 
     //添加排名到指定位置
