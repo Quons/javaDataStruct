@@ -1,28 +1,38 @@
+import javax.sound.midi.Soundbank;
+import java.util.Stack;
+
 public class SingleLinkedList {
     public static void main(String[] args) {
         SingleLinkedListStruct heroList = new SingleLinkedListStruct();
         HeroNode hero1 = new HeroNode(1, "宋江", "及时雨");
-        HeroNode hero2 = new HeroNode(2, "卢俊义", "玉麒麟");
         HeroNode hero3 = new HeroNode(3, "吴勇", "智多星");
-        HeroNode hero4 = new HeroNode(4, "林冲", "豹子头");
         HeroNode hero5 = new HeroNode(5, "鲁智深1", "花和尚");
-        HeroNode hero6 = new HeroNode(6, "鲁智深", "花和尚");
         heroList.add(hero1);
-        heroList.add(hero2);
         heroList.add(hero3);
-        heroList.add(hero4);
-        heroList.addByOrder(hero6);
-        heroList.addByOrder(hero5);
-        HeroNode updateHeroNode = new HeroNode(6, "鲁智笙ss", "丈二的和尚");
-        heroList.update(updateHeroNode);
-        HeroNode deleteHeroNode = new HeroNode(1, "鲁智笙", "丈二的和尚");
-        heroList.delete(deleteHeroNode);
-        heroList.list();
-        System.out.println(getLength(heroList.getHead()));
-        System.out.println(getLastNode(heroList.getHead(), 1));
-        reverseList(heroList.getHead());
-        heroList.list();
+        heroList.add(hero5);
+//        heroList.addByOrder(hero5);
+//        HeroNode updateHeroNode = new HeroNode(6, "鲁智笙ss", "丈二的和尚");
+//        heroList.update(updateHeroNode);
+//        HeroNode deleteHeroNode = new HeroNode(1, "鲁智笙", "丈二的和尚");
+//        heroList.delete(deleteHeroNode);
+//        heroList.list();
+//        System.out.println(getLength(heroList.getHead()));
+//        System.out.println(getLastNode(heroList.getHead(), 1));
+//        reverseList(heroList.getHead());
+//        heroList.list();
+//        System.out.println("reverse print");
+//        reversePrint(heroList.getHead());
+//        System.out.println("combine list....");
 
+        SingleLinkedListStruct heroListNew = new SingleLinkedListStruct();
+        HeroNode hero2 = new HeroNode(2, "卢俊义", "玉麒麟");
+        HeroNode hero4 = new HeroNode(4, "林冲", "豹子头");
+        HeroNode hero6 = new HeroNode(6, "鲁智深", "花和尚");
+        heroListNew.add(hero2);
+        heroListNew.add(hero4);
+        heroListNew.add(hero6);
+        SingleLinkedListStruct resultList = combineLists(heroList.getHead(), heroListNew.getHead());
+        resultList.list();
     }
 
     // 获取单链表的节点的个数，如果是带头结点对的链表，需求不统计头结点
@@ -84,6 +94,70 @@ public class SingleLinkedList {
         //将head.next 指向reverseHead.next,实现单链表的反转
         head.next = reverseHead.next;
     }
+
+    //逆序打印链表
+    //利用栈先进后出的特点，逆序打印
+    public static void reversePrint(HeroNode head) {
+        //判断如果链表为空，返回null
+        if (head.next == null) {
+            return;
+        }
+        Stack<HeroNode> stack = new Stack<HeroNode>();
+        HeroNode cur = head.next;
+        //将链表的所有节点都压入栈中
+        while (cur != null) {
+            stack.push(cur);
+            cur = cur.next;
+        }
+        while (stack.size() > 0) {
+            System.out.println(stack.pop());
+        }
+
+    }
+
+    //合并两个有序的链表
+    public static SingleLinkedListStruct combineLists(HeroNode first, HeroNode second) {
+        //创建合并之后的链表
+        SingleLinkedListStruct result = new SingleLinkedListStruct();
+        HeroNode resultHead = new HeroNode(0, "", "");
+        //判断如果链表为空，返回null
+        if (first.next == null) {
+            result.setHead(second);
+            return result;
+        } else if (second.next == null) {
+            result.setHead(first);
+            return result;
+        }
+        //遍历两个链表
+        HeroNode firstCur = first.next;
+        HeroNode secondCur = second.next;
+        //只是作为一个临时标记
+        HeroNode resultCur = new HeroNode(0, "", "");
+        resultHead.next = resultCur;
+        HeroNode tmpNode;
+        while (true) {
+            if (firstCur == null) {
+                resultCur.next = secondCur;
+                break;
+            }
+            if (secondCur == null) {
+                resultCur.next = firstCur;
+                break;
+            }
+            if (firstCur.no > secondCur.no) {
+                //如果first大于second ,就吧second的节点变成
+                tmpNode = secondCur;
+                secondCur = secondCur.next;
+            } else {
+                tmpNode = firstCur;
+                firstCur = firstCur.next;
+            }
+            resultCur.next = tmpNode;
+            resultCur = tmpNode;
+        }
+        result.setHead(resultHead.next);
+        return result;
+    }
 }
 
 //定义SingleLinkedList 管理我们的英雄
@@ -93,6 +167,10 @@ class SingleLinkedListStruct {
 
     public HeroNode getHead() {
         return head;
+    }
+
+    public void setHead(HeroNode head) {
+        this.head = head;
     }
 
     //添加节点到单向链表，1,先找到最后的节点,2:将最后这个节点的next指向新的节点
