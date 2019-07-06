@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8940a5f0-1257-48d6-8f1b-9489cce79956" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com.knowbox.linkedList/DoubleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.knowbox.Josepfu/Josepfu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -35,7 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com.knowbox.linkedList/SingleLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2907">
+            <state relative-caret-position="2924">
               <caret line="176" column="19" selection-start-line="176" selection-start-column="16" selection-end-line="176" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -44,11 +44,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com.knowbox.linkedList/DoubleLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="186" column="36" selection-start-line="186" selection-start-column="36" selection-end-line="186" selection-end-column="36" />
+            <state relative-caret-position="493">
+              <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com.knowbox.Josepfu/Josepfu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1394">
+              <caret line="82" column="22" lean-forward="true" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
+              <folding>
+                <element signature="e#1694#1695#0" expanded="true" />
+                <element signature="e#1722#1723#0" expanded="true" />
+                <element signature="e#1748#1749#0" expanded="true" />
+                <element signature="e#1773#1774#0" expanded="true" />
+                <element signature="e#1806#1807#0" expanded="true" />
+                <element signature="e#1834#1835#0" expanded="true" />
+                <element signature="e#1862#1863#0" expanded="true" />
+                <element signature="e#1889#1890#0" expanded="true" />
+                <element signature="e#1926#1927#0" expanded="true" />
+                <element signature="e#1958#1959#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,14 +85,23 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>HeroNode</find>
       <find>单链表</find>
+      <find>|</find>
     </findStrings>
     <replaceStrings>
       <replace>DoubleHeroNode</replace>
       <replace>双向链表</replace>
+      <replace>,</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -84,6 +114,8 @@
         <option value="$PROJECT_DIR$/src/com.knowbox.test/Test.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.linkedList/SingleLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.linkedList/DoubleLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com.knowbox.Josepfu/com.knowbox.linkedList/DoubleLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com.knowbox.Josepfu/Josepfu.java" />
       </list>
     </option>
   </component>
@@ -98,17 +130,19 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="1025" />
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="797" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="1440" />
+    <option name="y" value="-58" />
+    <option name="width" value="1920" />
+    <option name="height" value="977" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,27 +159,13 @@
               <item name="first-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaDataStruct" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com.knowbox.linkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="com.knowbox.Josepfu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="first-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaDataStruct" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com.knowbox.linkedList" type="462c0819:PsiDirectoryNode" />
-              <item name="DoubleLinkedList.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="first-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaDataStruct" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com.knowbox.linkedList" type="462c0819:PsiDirectoryNode" />
-              <item name="SingleLinkedList.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="first-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaDataStruct" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com.knowbox.sparsearray" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="first-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -157,20 +177,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com.knowbox.linkedList" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com.knowbox.Josepfu" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com.knowbox.Josepfu" />
       <recent name="$PROJECT_DIR$/src/com.knowbox.linkedList" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -187,9 +206,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DoubleLinkedList">
+  <component name="RunManager" selected="Application.Josepfu">
     <configuration name="DoubleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DoubleLinkedList" />
+      <module name="first-demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Josepfu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Josepfu" />
       <module name="first-demo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -211,6 +237,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Josepfu" />
         <item itemvalue="Application.DoubleLinkedList" />
         <item itemvalue="Application.SingleLinkedList" />
         <item itemvalue="Application.Test" />
@@ -233,7 +260,13 @@
       <workItem from="1561628460660" duration="2415000" />
       <workItem from="1561686618724" duration="1988000" />
       <workItem from="1561692319398" duration="54000" />
-      <workItem from="1561692571382" duration="2547000" />
+      <workItem from="1561692571382" duration="3129000" />
+      <workItem from="1561788966029" duration="518000" />
+      <workItem from="1561864358802" duration="819000" />
+      <workItem from="1561947146707" duration="592000" />
+      <workItem from="1561974297019" duration="2874000" />
+      <workItem from="1562314448071" duration="3365000" />
+      <workItem from="1562392922295" duration="4828000" />
     </task>
     <task id="LOCAL-00001" summary="linkedList update">
       <created>1561463725671</created>
@@ -256,17 +289,23 @@
       <option name="project" value="LOCAL" />
       <updated>1561640329189</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="linkedList:double linkedList">
+      <created>1561701469467</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561701469467</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24200000" />
+    <option name="totallyTimeSpent" value="37778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-81" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10330138" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15388711" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -275,7 +314,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17128713" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29108912" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -285,12 +324,12 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32871288" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.17227723" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.17128713" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.32960597" />
+      <window_info anchor="right" id="Database" order="4" weight="0.14306152" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -304,20 +343,30 @@
     <MESSAGE value="linkedList update" />
     <MESSAGE value="linkedList:reverse" />
     <MESSAGE value="linkedList:combine" />
-    <option name="LAST_COMMIT_MESSAGE" value="linkedList:combine" />
+    <MESSAGE value="linkedList:double linkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="linkedList:double linkedList" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com.knowbox.Josepfu/com.knowbox.linkedList/SingleLinkedList.java" />
+    <entry file="file://$PROJECT_DIR$/src/com.knowbox.Josepfu/com.knowbox.linkedList/DoubleLinkedList.java" />
     <entry file="file://$PROJECT_DIR$/src/com.knowbox.linkedList/SingleLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2907">
+        <state relative-caret-position="2924">
           <caret line="176" column="19" selection-start-line="176" selection-start-column="16" selection-end-line="176" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.knowbox.linkedList/DoubleLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -328,10 +377,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.knowbox.linkedList/DoubleLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com.knowbox.Josepfu/Josepfu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="186" column="36" selection-start-line="186" selection-start-column="36" selection-end-line="186" selection-end-column="36" />
+        <state relative-caret-position="1394">
+          <caret line="82" column="22" lean-forward="true" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
+          <folding>
+            <element signature="e#1694#1695#0" expanded="true" />
+            <element signature="e#1722#1723#0" expanded="true" />
+            <element signature="e#1748#1749#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
+            <element signature="e#1806#1807#0" expanded="true" />
+            <element signature="e#1834#1835#0" expanded="true" />
+            <element signature="e#1862#1863#0" expanded="true" />
+            <element signature="e#1889#1890#0" expanded="true" />
+            <element signature="e#1926#1927#0" expanded="true" />
+            <element signature="e#1958#1959#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
