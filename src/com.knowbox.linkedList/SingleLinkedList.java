@@ -229,6 +229,17 @@ class SingleLinkedListStruct {
         }
     }
 
+    //获取最后一个元素
+    public HeroNode getLast() {
+        HeroNode temp = head;
+        while (true) {
+            if (temp.next == null) {
+                return temp;
+            }
+            temp = temp.next;
+        }
+    }
+
     //添加排名到指定位置
     public void addByOrder(HeroNode heroNode) {
         HeroNode temp = head;
