@@ -1,8 +1,7 @@
-import com.sun.org.apache.xpath.internal.WhitespaceStrippingElementMatcher;
 
 public class Calculator {
     public static void main(String[] args) {
-        String expression = "7+2*6-3";
+        String expression = "70+2*6-3";
         //创建两个栈，数栈，符号栈
         CalculatorStack numStack = new CalculatorStack(10);
         CalculatorStack operStack = new CalculatorStack(10);
@@ -12,6 +11,7 @@ public class Calculator {
         int num2;
         int oper = 0;
         int res;
+        String keepNum = "";
         char ch;//将每次扫描到得到的char 保存到ch
         //开始while循环的扫描expression
         while (true) {
@@ -29,7 +29,7 @@ public class Calculator {
                     if (operStack.priority(ch) <= operStack.priority(operStack.peek())) {
                         num1 = numStack.pop();
                         num2 = numStack.pop();
-                        oper=operStack.pop();
+                        oper = operStack.pop();
                         res = numStack.cal(num1, num2, oper);
                         //把计算的结果如数栈
                         numStack.push(res);
@@ -40,8 +40,17 @@ public class Calculator {
                     }
                 }
             } else {
-                //如果是数字，直接入数栈（注意进行asc码修改）
-                numStack.push(ch - 48);
+                keepNum += ch;
+                //如果ch已经是最后一位，直接入栈
+                if (index == expression.length() - 1) {
+                    numStack.push(Integer.parseInt(keepNum));
+                } else {
+                    //判断后一个是不是操作符
+                    if (operStack.isOper(expression.substring(index + 1, index + 2).charAt(0))) {
+                        numStack.push(Integer.parseInt(keepNum));
+                        keepNum = "";
+                    }
+                }
             }
             //index + 1,并判断是否扫描到expression的最后
             index++;
@@ -59,7 +68,7 @@ public class Calculator {
             }
             num1 = numStack.pop();
             num2 = numStack.pop();
-            oper=operStack.pop();
+            oper = operStack.pop();
             res = numStack.cal(num1, num2, oper);
             //把计算的结果如数栈
             numStack.push(res);

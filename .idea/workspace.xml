@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8940a5f0-1257-48d6-8f1b-9489cce79956" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com.knowbox.calculator/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com.knowbox.stack/stackDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.knowbox.polandNotation/PolandNotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.knowbox.recursion/RecursionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.knowbox.linkedList/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.knowbox.linkedList/SingleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ArrayQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ArrayQueueStruct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ArrayQueueStruct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FirstClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FirstClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HeroNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HeroNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SingleLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SingleLinkedListStruct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SingleLinkedListStruct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SparseArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SparseArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com.knowbox.calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.knowbox.calculator/Calculator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com.knowbox.linkedList/SingleLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
+            <state relative-caret-position="1802">
               <caret line="107" column="29" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -70,18 +62,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1394">
               <caret line="82" column="22" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
-              <folding>
-                <element signature="e#1694#1695#0" expanded="true" />
-                <element signature="e#1722#1723#0" expanded="true" />
-                <element signature="e#1748#1749#0" expanded="true" />
-                <element signature="e#1773#1774#0" expanded="true" />
-                <element signature="e#1806#1807#0" expanded="true" />
-                <element signature="e#1834#1835#0" expanded="true" />
-                <element signature="e#1862#1863#0" expanded="true" />
-                <element signature="e#1889#1890#0" expanded="true" />
-                <element signature="e#1926#1927#0" expanded="true" />
-                <element signature="e#1958#1959#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -89,33 +69,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com.knowbox.stack/stackDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2601">
+            <state relative-caret-position="2465">
               <caret line="153" selection-start-line="45" selection-end-line="153" />
               <folding>
+                <element signature="e#1631#1632#0" expanded="true" />
                 <element signature="e#1672#1673#0" expanded="true" />
+                <element signature="e#1713#1714#0" expanded="true" />
                 <element signature="e#1745#1746#0" expanded="true" />
-                <element signature="e#2728#2729#0" expanded="true" />
-                <element signature="e#2756#2757#0" expanded="true" />
-                <element signature="e#2721#2722#0" expanded="true" />
-                <element signature="e#2753#2754#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com.knowbox.calculator/Calculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+              <folding>
+                <element signature="e#4125#4126#0" expanded="true" />
+                <element signature="e#4200#4201#0" expanded="true" />
+                <element signature="e#4722#4723#0" expanded="true" />
+                <element signature="e#4755#4756#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com.knowbox.polandNotation/PolandNotation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="185" column="30" selection-start-line="185" selection-start-column="30" selection-end-line="185" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com.knowbox.calculator/Calculator.java">
+        <entry file="file://$PROJECT_DIR$/src/com.knowbox.recursion/RecursionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-              <folding>
-                <element signature="e#562#563#0" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
-                <element signature="e#644#645#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#3839#3840#0" expanded="true" />
-                <element signature="e#4394#4395#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -167,6 +164,10 @@
         <option value="$PROJECT_DIR$/src/com.knowbox.stack/stackDemo.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.calculator/Josepfu.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.calculator/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/com.knowbox.polandNotation/polandNotatation.java" />
+        <option value="$PROJECT_DIR$/src/com.knowbox.polandNotation/PolandNotatation.java" />
+        <option value="$PROJECT_DIR$/src/com.knowbox.polandNotation/PolandNotation.java" />
+        <option value="$PROJECT_DIR$/src/com.knowbox.recursion/RecursionTest.java" />
       </list>
     </option>
   </component>
@@ -184,9 +185,9 @@
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="1440" />
-    <option name="y" value="-58" />
+    <option name="y" value="-81" />
     <option name="width" value="1920" />
-    <option name="height" value="977" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -194,7 +195,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,31 +211,19 @@
               <item name="first-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaDataStruct" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com.knowbox.calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="com.knowbox.polandNotation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="first-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaDataStruct" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com.knowbox.stack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaDataStruct" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com.knowbox.stack" type="462c0819:PsiDirectoryNode" />
-              <item name="stackDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="first-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaDataStruct" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com.knowbox.test" type="462c0819:PsiDirectoryNode" />
+              <item name="com.knowbox.recursion" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,16 +260,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Calculator">
+  <component name="RunManager" selected="Application.RecursionTest">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Calculator" />
-      <module name="first-demo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DoubleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DoubleLinkedList" />
       <module name="first-demo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -294,8 +275,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingleLinkedList" />
+    <configuration name="PolandNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PolandNotation" />
+      <module name="first-demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecursionTest" />
       <module name="first-demo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -310,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecursionTest" />
+        <item itemvalue="Application.PolandNotation" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.stackDemo" />
         <item itemvalue="Application.Josepfu" />
-        <item itemvalue="Application.DoubleLinkedList" />
-        <item itemvalue="Application.SingleLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +328,8 @@
       <workItem from="1561947146707" duration="592000" />
       <workItem from="1561974297019" duration="2874000" />
       <workItem from="1562314448071" duration="3365000" />
-      <workItem from="1562392922295" duration="14133000" />
+      <workItem from="1562392922295" duration="24027000" />
+      <workItem from="1563000442969" duration="8171000" />
     </task>
     <task id="LOCAL-00001" summary="linkedList update">
       <created>1561463725671</created>
@@ -377,17 +366,23 @@
       <option name="project" value="LOCAL" />
       <updated>1562401888743</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="中缀表达式计算">
+      <created>1562498552010</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1562498552010</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47083000" />
+    <option name="totallyTimeSpent" value="65148000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="-81" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15388711" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19527897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -396,7 +391,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3059406" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37228915" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -411,7 +406,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.14306152" />
+      <window_info anchor="right" id="Database" order="4" weight="0.106496274" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -427,7 +422,8 @@
     <MESSAGE value="linkedList:combine" />
     <MESSAGE value="linkedList:double linkedList" />
     <MESSAGE value="josephu环" />
-    <option name="LAST_COMMIT_MESSAGE" value="josephu环" />
+    <MESSAGE value="中缀表达式计算" />
+    <option name="LAST_COMMIT_MESSAGE" value="中缀表达式计算" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -436,10 +432,57 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com.knowbox.Josepfu/com.knowbox.linkedList/SingleLinkedList.java" />
     <entry file="file://$PROJECT_DIR$/src/com.knowbox.Josepfu/com.knowbox.linkedList/DoubleLinkedList.java" />
+    <entry file="file://$PROJECT_DIR$/src/com.knowbox.stack/com.knowbox.Josepfu/stack.java" />
+    <entry file="file://$PROJECT_DIR$/src/knowbox/Calculator.java" />
+    <entry file="file://$PROJECT_DIR$/src/com.knowbox.linkedList/SingleLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="107" column="29" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5367#5368#0" expanded="true" />
+            <element signature="e#5394#5395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com.knowbox.linkedList/DoubleLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.knowbox.Josepfu/Josepfu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="82" column="22" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.knowbox.stack/stackDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="153" selection-start-line="45" selection-end-line="153" />
+          <folding>
+            <element signature="e#1631#1632#0" expanded="true" />
+            <element signature="e#1672#1673#0" expanded="true" />
+            <element signature="e#1713#1714#0" expanded="true" />
+            <element signature="e#1745#1746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.knowbox.calculator/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+          <folding>
+            <element signature="e#4125#4126#0" expanded="true" />
+            <element signature="e#4200#4201#0" expanded="true" />
+            <element signature="e#4722#4723#0" expanded="true" />
+            <element signature="e#4755#4756#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -450,74 +493,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.knowbox.stack/com.knowbox.Josepfu/stack.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.knowbox.Josepfu/Josepfu.java">
+    <entry file="file://$PROJECT_DIR$/src/com.knowbox.polandNotation/PolandNotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="82" column="22" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
-          <folding>
-            <element signature="e#1694#1695#0" expanded="true" />
-            <element signature="e#1722#1723#0" expanded="true" />
-            <element signature="e#1748#1749#0" expanded="true" />
-            <element signature="e#1773#1774#0" expanded="true" />
-            <element signature="e#1806#1807#0" expanded="true" />
-            <element signature="e#1834#1835#0" expanded="true" />
-            <element signature="e#1862#1863#0" expanded="true" />
-            <element signature="e#1889#1890#0" expanded="true" />
-            <element signature="e#1926#1927#0" expanded="true" />
-            <element signature="e#1958#1959#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.knowbox.linkedList/SingleLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="107" column="29" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
+        <state relative-caret-position="382">
+          <caret line="185" column="30" selection-start-line="185" selection-start-column="30" selection-end-line="185" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5367#5368#0" expanded="true" />
-            <element signature="e#5394#5395#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/knowbox/Calculator.java">
+    <entry file="file://$PROJECT_DIR$/src/com.knowbox.recursion/RecursionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.knowbox.stack/stackDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2601">
-          <caret line="153" selection-start-line="45" selection-end-line="153" />
-          <folding>
-            <element signature="e#1672#1673#0" expanded="true" />
-            <element signature="e#1745#1746#0" expanded="true" />
-            <element signature="e#2728#2729#0" expanded="true" />
-            <element signature="e#2756#2757#0" expanded="true" />
-            <element signature="e#2721#2722#0" expanded="true" />
-            <element signature="e#2753#2754#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.knowbox.calculator/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding>
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#3839#3840#0" expanded="true" />
-            <element signature="e#4394#4395#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
         </state>
       </provider>
     </entry>
