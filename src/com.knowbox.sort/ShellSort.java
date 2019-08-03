@@ -1,21 +1,20 @@
+
 public class ShellSort {
     public static void main(String[] args) {
-//        int[] arr = {8, 9, 1, 7, 2, 3, 5, 4, 6, 0};
-        int[] arr = new int[80000];
-        for (int i = 0; i < 80000; i++) {
+        //int[] arr = {8, 9, 1, 7, 2, 3, 5, 4, 6, 0};
+        int[] arr = new int[8000000];
+        for (int i = 0; i < 8000000; i++) {
             arr[i] = (int) (Math.random() * 8000000);
         }
         long start = System.currentTimeMillis();
-        int[] arr2 = shellSort3(arr);
+        shellSort3(arr);
         long end = System.currentTimeMillis();
         System.out.println(end - start);
-       /* for (int a : arr2) {
-            System.out.println(a);
-        }*/
+        // System.out.println(Arrays.toString(arr));
     }
 
     //交换法
-    public static int[] shellSort(int[] arr) {
+    public static void shellSort(int[] arr) {
         int tmp;
         for (int gap = arr.length / 2; gap > 0; gap /= 2) {//控制步长
             for (int i = gap; i < arr.length; i++) {//进行插入排序
@@ -28,11 +27,10 @@ public class ShellSort {
                 }
             }
         }
-        return arr;
     }
 
     //依次降低步长，进行宏观调整
-    public static int[] shellSort2(int[] arr) {
+    public static void shellSort2(int[] arr) {
         int tmp;
         for (int gap = arr.length / 2; gap > 0; gap /= 2) {//控制步长
             for (int i = gap; i < arr.length; i++) {
@@ -49,11 +47,10 @@ public class ShellSort {
                 }
             }
         }
-        return arr;
     }
 
     //移位法
-    public static int[] shellSort3(int[] arr) {
+    public static void shellSort3(int[] arr) {
         int tmp;
         for (int gap = arr.length / 2; gap > 0; gap /= 2) {//控制步长
             for (int i = gap; i < arr.length; i++) {//以gap为界，左边为有序组，gap以及gap右边的为无序组
@@ -66,7 +63,6 @@ public class ShellSort {
                 arr[j] = tmp;//插入
             }
         }
-        return arr;
     }
 }
 
