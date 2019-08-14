@@ -24,6 +24,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/com.knowbox.hashtable" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/com.knowbox.tree" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/com.knowbox.tree.threadedBianryTree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/com.knowbox.huffmantree" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
