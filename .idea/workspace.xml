@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8940a5f0-1257-48d6-8f1b-9489cce79956" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/asset/test.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/test2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com.knowbox.avl/AVLDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com.knowbox.binarySortTree/BinarySortTreeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com.knowbox.huffmanCode/HuffmanCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.knowbox.graph/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/first-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com.knowbox.search/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.knowbox.search/BinarySearch.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,24 +34,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com.knowbox.tree/ThreadedBinaryTreeDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com.knowbox.tree/HeapSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1207">
-              <caret line="135" column="9" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com.knowbox.huffmantree/HuffmanTree.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,15 +67,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com.knowbox.avl/AVLDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="59" lean-forward="true" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+            <state relative-caret-position="418">
+              <caret line="79" column="28" lean-forward="true" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
               <folding>
                 <element signature="e#4985#4986#0" expanded="true" />
                 <element signature="e#5090#5091#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com.knowbox.graph/Graph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="112" column="34" lean-forward="true" selection-start-line="112" selection-start-column="34" selection-end-line="112" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3690#3691#0" expanded="true" />
+                <element signature="e#3770#3771#0" expanded="true" />
+                <element signature="e#3863#3864#0" expanded="true" />
+                <element signature="e#3960#3961#0" expanded="true" />
+                <element signature="e#4226#4227#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com.knowbox.search/BinarySearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -209,7 +214,6 @@
         <option value="$PROJECT_DIR$/src/com.knowbox.search/BinerySort.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.search/BinarySort.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.search/InsertSort.java" />
-        <option value="$PROJECT_DIR$/src/com.knowbox.search/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.search/InsertSearch.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.search/FibonacciSearch.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.HashTable/Calculator.java" />
@@ -225,12 +229,14 @@
         <option value="$PROJECT_DIR$/src/com.knowbox.huffmanCode/HuffmanCode.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.binarySortTree/BinarySortTreeDemo.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.avl/AVLDemo.java" />
+        <option value="$PROJECT_DIR$/src/com.knowbox.graph/Graph.java" />
+        <option value="$PROJECT_DIR$/src/com.knowbox.search/BinarySearch.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1700" />
-    <option name="y" value="48" />
+    <option name="x" value="1440" />
+    <option name="y" value="99" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -256,20 +262,7 @@
               <item name="first-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaDataStruct" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com.knowbox.avl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaDataStruct" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com.knowbox.avl" type="462c0819:PsiDirectoryNode" />
-              <item name="AVLDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="first-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaDataStruct" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com.knowbox.binarySortTree" type="462c0819:PsiDirectoryNode" />
+              <item name="com.knowbox.search" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -292,15 +285,8 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-      <recent name="com.knowbox.mazi" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -308,6 +294,13 @@
       <recent name="$PROJECT_DIR$/src/com.knowbox.tree" />
       <recent name="$PROJECT_DIR$/src/com.knowbox.stack" />
       <recent name="$PROJECT_DIR$/src/com.knowbox.Josepfu" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.knowbox.mazi" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -322,7 +315,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AVLDemo">
+  <component name="RunManager" selected="Application.Graph">
     <configuration name="AVLDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AVLDemo" />
       <module name="first-demo" />
@@ -337,8 +330,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HeapSort" />
+    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph" />
       <module name="first-demo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -360,11 +353,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Graph" />
         <item itemvalue="Application.AVLDemo" />
         <item itemvalue="Application.BinarySortTreeDemo" />
         <item itemvalue="Application.HuffmanCode" />
         <item itemvalue="Application.HuffmanTree" />
-        <item itemvalue="Application.HeapSort" />
       </list>
     </recent_temporary>
   </component>
@@ -406,7 +399,7 @@
       <workItem from="1566207029071" duration="7737000" />
       <workItem from="1566350730955" duration="3250000" />
       <workItem from="1566387519413" duration="1059000" />
-      <workItem from="1566525092620" duration="5242000" />
+      <workItem from="1566525092620" duration="14907000" />
     </task>
     <task id="LOCAL-00001" summary="linkedList update">
       <created>1561463725671</created>
@@ -513,14 +506,22 @@
       <option name="project" value="LOCAL" />
       <updated>1565761955181</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="平衡二叉树">
+      <created>1566636626506</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1566636626506</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208996000" />
+    <option name="totallyTimeSpent" value="218661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-81" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1682641" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -612,7 +613,8 @@
     <MESSAGE value="hashtable" />
     <MESSAGE value="heapSort" />
     <MESSAGE value="Huffman树" />
-    <option name="LAST_COMMIT_MESSAGE" value="Huffman树" />
+    <MESSAGE value="平衡二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="平衡二叉树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -769,13 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.knowbox.search/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com.knowbox.search/InsertSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -922,12 +917,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com.knowbox.avl/AVLDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="59" lean-forward="true" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+        <state relative-caret-position="418">
+          <caret line="79" column="28" lean-forward="true" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
           <folding>
             <element signature="e#4985#4986#0" expanded="true" />
             <element signature="e#5090#5091#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.knowbox.graph/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="112" column="34" lean-forward="true" selection-start-line="112" selection-start-column="34" selection-end-line="112" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3690#3691#0" expanded="true" />
+            <element signature="e#3770#3771#0" expanded="true" />
+            <element signature="e#3863#3864#0" expanded="true" />
+            <element signature="e#3960#3961#0" expanded="true" />
+            <element signature="e#4226#4227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.knowbox.search/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
         </state>
       </provider>
     </entry>
