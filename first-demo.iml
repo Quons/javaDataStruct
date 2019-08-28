@@ -33,6 +33,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/com.knowbox.dac" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/com.knowbox.dynamic" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/com.knowbox.kmp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/com.knowbox.greedy" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8940a5f0-1257-48d6-8f1b-9489cce79956" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com.knowbox.binarysearchNoRecursion/BinarySearchNoRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com.knowbox.dac/Hanoitower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com.knowbox.dynamic/KnapsackProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com.knowbox.kmp/KmpAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com.knowbox.kmp/ViolenceMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.knowbox.greedy/GreedyAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/first-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HeroNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HeroNode.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -88,12 +85,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com.knowbox.dac/Hanoitower.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="493">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#69#70#0" expanded="true" />
                 <element signature="e#113#114#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com.knowbox.greedy/GreedyAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="557">
+              <caret line="70" column="33" lean-forward="true" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com.knowbox.mazi/Maze.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -111,41 +129,16 @@
         <entry file="file://$PROJECT_DIR$/src/com.knowbox.kmp/ViolenceMatch.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="550">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com.knowbox.kmp/KmpAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-406">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com.knowbox.sort/BubbleSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="40" selection-start-line="4" selection-start-column="7" selection-end-line="11" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com.knowbox.tree/ArrayBinaryTreeDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-              <folding>
-                <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="243">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -182,7 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com.knowbox.Josepfu/com.knowbox.linkedList/DoubleLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.Josepfu/Josepfu.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.stack/com.knowbox.Josepfu/stack.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.stack/stack.java" />
@@ -233,14 +225,15 @@
         <option value="$PROJECT_DIR$/src/com.knowbox.dynamic/KnapsackProblem.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.kmp/ViolenceMatch.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.kmp/KmpAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/com.knowbox.greedy/GreedyAlgorithm.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="1440" />
-    <option name="y" value="122" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="y" value="-81" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -270,13 +263,13 @@
               <item name="first-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaDataStruct" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com.knowbox.dynamic" type="462c0819:PsiDirectoryNode" />
+              <item name="com.knowbox.greedy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="first-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaDataStruct" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com.knowbox.kmp" type="462c0819:PsiDirectoryNode" />
+              <item name="com.knowbox.linkedList" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -329,9 +322,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KmpAlgorithm">
-    <configuration name="BinarySearchNoRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearchNoRecursion" />
+  <component name="RunManager" selected="Application.GreedyAlgorithm">
+    <configuration name="GreedyAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithm" />
       <module name="first-demo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -367,11 +360,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GreedyAlgorithm" />
         <item itemvalue="Application.KmpAlgorithm" />
         <item itemvalue="Application.ViolenceMatch" />
         <item itemvalue="Application.KnapsackProblem" />
         <item itemvalue="Application.Hanoitower" />
-        <item itemvalue="Application.BinarySearchNoRecursion" />
       </list>
     </recent_temporary>
   </component>
@@ -413,7 +406,7 @@
       <workItem from="1566207029071" duration="7737000" />
       <workItem from="1566350730955" duration="3250000" />
       <workItem from="1566387519413" duration="1059000" />
-      <workItem from="1566525092620" duration="32759000" />
+      <workItem from="1566525092620" duration="38196000" />
     </task>
     <task id="LOCAL-00001" summary="linkedList update">
       <created>1561463725671</created>
@@ -534,16 +527,24 @@
       <option name="project" value="LOCAL" />
       <updated>1566819194487</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="kmp">
+      <created>1566972000696</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1566972000696</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236513000" />
+    <option name="totallyTimeSpent" value="241950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-81" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1682641" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1682641" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -552,8 +553,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32928064" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24012157" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39918947" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16413374" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39918947" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -635,7 +636,8 @@
     <MESSAGE value="Huffman树" />
     <MESSAGE value="平衡二叉树" />
     <MESSAGE value="图" />
-    <option name="LAST_COMMIT_MESSAGE" value="图" />
+    <MESSAGE value="kmp" />
+    <option name="LAST_COMMIT_MESSAGE" value="kmp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -660,7 +662,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com.knowbox.Josepfu/com.knowbox.linkedList/SingleLinkedList.java" />
     <entry file="file://$PROJECT_DIR$/src/com.knowbox.Josepfu/com.knowbox.linkedList/DoubleLinkedList.java" />
     <entry file="file://$PROJECT_DIR$/src/com.knowbox.stack/com.knowbox.Josepfu/stack.java" />
     <entry file="file://$PROJECT_DIR$/src/knowbox/Calculator.java" />
@@ -718,13 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.knowbox.mazi/Maze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -982,17 +976,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com.knowbox.dac/Hanoitower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-          <folding>
-            <element signature="e#69#70#0" expanded="true" />
-            <element signature="e#113#114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com.knowbox.dynamic/KnapsackProblem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
@@ -1003,14 +986,42 @@
     <entry file="file://$PROJECT_DIR$/src/com.knowbox.kmp/ViolenceMatch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com.knowbox.kmp/KmpAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-406">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="243">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.knowbox.dac/Hanoitower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#69#70#0" expanded="true" />
+            <element signature="e#113#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.knowbox.mazi/Maze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.knowbox.greedy/GreedyAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="70" column="33" lean-forward="true" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
