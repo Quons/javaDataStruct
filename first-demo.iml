@@ -29,6 +29,10 @@
       <sourceFolder url="file://$MODULE_DIR$/src/com.knowbox.binarySortTree" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/com.knowbox.avl" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/com.knowbox.graph" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/com.knowbox.binarysearchNoRecursion" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/com.knowbox.dac" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/com.knowbox.dynamic" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/com.knowbox.kmp" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
