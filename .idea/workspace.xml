@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8940a5f0-1257-48d6-8f1b-9489cce79956" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com.knowbox.greedy/GreedyAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.knowbox.kruskal/KruskalCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.knowbox.prim/primAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/first-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HeroNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HeroNode.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,36 +34,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com.knowbox.avl/AVLDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="79" column="28" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
-              <folding>
-                <element signature="e#4985#4986#0" expanded="true" />
-                <element signature="e#5090#5091#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com.knowbox.graph/Graph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="112" column="34" selection-start-line="112" selection-start-column="34" selection-end-line="112" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3690#3691#0" expanded="true" />
-                <element signature="e#3770#3771#0" expanded="true" />
-                <element signature="e#3863#3864#0" expanded="true" />
-                <element signature="e#3960#3961#0" expanded="true" />
-                <element signature="e#4226#4227#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com.knowbox.search/BinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,14 +65,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com.knowbox.greedy/GreedyAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="557">
-              <caret line="70" column="33" lean-forward="true" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+              <caret line="70" column="49" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com.knowbox.prim/primAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com.knowbox.kruskal/KruskalCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -175,9 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com.knowbox.Josepfu/Josepfu.java" />
-        <option value="$PROJECT_DIR$/src/com.knowbox.stack/com.knowbox.Josepfu/stack.java" />
-        <option value="$PROJECT_DIR$/src/com.knowbox.stack/stack.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.linkedList/SingleLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.stack/stackDemo.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.calculator/Josepfu.java" />
@@ -226,6 +211,9 @@
         <option value="$PROJECT_DIR$/src/com.knowbox.kmp/ViolenceMatch.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.kmp/KmpAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.greedy/GreedyAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/com.knowbox.prim/primAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/com.knowbox.kruskal/kruskalCase.java" />
+        <option value="$PROJECT_DIR$/src/com.knowbox.kruskal/KruskalCase.java" />
       </list>
     </option>
   </component>
@@ -269,7 +257,19 @@
               <item name="first-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaDataStruct" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com.knowbox.kruskal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaDataStruct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com.knowbox.linkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaDataStruct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com.knowbox.prim" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -322,16 +322,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GreedyAlgorithm">
+  <component name="RunManager" selected="Application.KruskalCase">
     <configuration name="GreedyAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GreedyAlgorithm" />
-      <module name="first-demo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Hanoitower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hanoitower" />
       <module name="first-demo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -344,8 +337,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnapsackProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KnapsackProblem" />
+    <configuration name="KruskalCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KruskalCase" />
       <module name="first-demo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -358,13 +351,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="primAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="primAlgorithm" />
+      <module name="first-demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KruskalCase" />
+        <item itemvalue="Application.primAlgorithm" />
         <item itemvalue="Application.GreedyAlgorithm" />
         <item itemvalue="Application.KmpAlgorithm" />
         <item itemvalue="Application.ViolenceMatch" />
-        <item itemvalue="Application.KnapsackProblem" />
-        <item itemvalue="Application.Hanoitower" />
       </list>
     </recent_temporary>
   </component>
@@ -406,7 +406,7 @@
       <workItem from="1566207029071" duration="7737000" />
       <workItem from="1566350730955" duration="3250000" />
       <workItem from="1566387519413" duration="1059000" />
-      <workItem from="1566525092620" duration="38196000" />
+      <workItem from="1566525092620" duration="51645000" />
     </task>
     <task id="LOCAL-00001" summary="linkedList update">
       <created>1561463725671</created>
@@ -534,17 +534,23 @@
       <option name="project" value="LOCAL" />
       <updated>1566972000696</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="greedy">
+      <created>1566994634342</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1566994634342</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241950000" />
+    <option name="totallyTimeSpent" value="255399000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-81" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1682641" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1682641" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -553,7 +559,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32928064" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16413374" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26342452" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39918947" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -637,7 +643,8 @@
     <MESSAGE value="平衡二叉树" />
     <MESSAGE value="图" />
     <MESSAGE value="kmp" />
-    <option name="LAST_COMMIT_MESSAGE" value="kmp" />
+    <MESSAGE value="greedy" />
+    <option name="LAST_COMMIT_MESSAGE" value="greedy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -662,8 +669,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com.knowbox.Josepfu/com.knowbox.linkedList/DoubleLinkedList.java" />
-    <entry file="file://$PROJECT_DIR$/src/com.knowbox.stack/com.knowbox.Josepfu/stack.java" />
     <entry file="file://$PROJECT_DIR$/src/knowbox/Calculator.java" />
     <entry file="file://$PROJECT_DIR$/src/com.knowbox.linkedList/DoubleLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1018,10 +1023,24 @@
     <entry file="file://$PROJECT_DIR$/src/com.knowbox.greedy/GreedyAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
-          <caret line="70" column="33" lean-forward="true" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+          <caret line="70" column="49" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.knowbox.prim/primAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.knowbox.kruskal/KruskalCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
         </state>
       </provider>
     </entry>
