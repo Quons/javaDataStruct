@@ -37,6 +37,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/com.knowbox.prim" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/com.knowbox.kruskal" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/com.knowbox.dijkstra" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/com.knowbox.floyd" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/com.knowbox.horse" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
