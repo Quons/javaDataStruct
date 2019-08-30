@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8940a5f0-1257-48d6-8f1b-9489cce79956" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com.knowbox.kruskal/KruskalCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com.knowbox.prim/primAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.knowbox.dijkstra/DijkstraAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/first-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HeroNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HeroNode.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,15 +34,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com.knowbox.search/BinarySearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com.knowbox.binarysearchNoRecursion/BinarySearchNoRecursion.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,11 +77,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com.knowbox.kruskal/KruskalCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+            <state relative-caret-position="646">
+              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com.knowbox.dijkstra/DijkstraAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="190" column="9" lean-forward="true" selection-start-line="190" selection-start-column="9" selection-end-line="190" selection-end-column="9" />
+              <folding>
+                <element signature="e#1173#1174#0" expanded="true" />
+                <element signature="e#1895#1896#0" expanded="true" />
+                <element signature="e#1935#1936#0" expanded="true" />
+                <element signature="e#2079#2080#0" expanded="true" />
+                <element signature="e#2104#2105#0" expanded="true" />
+                <element signature="e#2251#2252#0" expanded="true" />
+                <element signature="e#2282#2283#0" expanded="true" />
+                <element signature="e#2411#2412#0" expanded="true" />
+                <element signature="e#2435#2436#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -163,7 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com.knowbox.linkedList/SingleLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.stack/stackDemo.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.calculator/Josepfu.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.calculator/Calculator.java" />
@@ -214,6 +224,7 @@
         <option value="$PROJECT_DIR$/src/com.knowbox.prim/primAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.kruskal/kruskalCase.java" />
         <option value="$PROJECT_DIR$/src/com.knowbox.kruskal/KruskalCase.java" />
+        <option value="$PROJECT_DIR$/src/com.knowbox.dijkstra/DijkstraAlgorithm.java" />
       </list>
     </option>
   </component>
@@ -246,6 +257,12 @@
               <item name="javaDataStruct" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com.knowbox.dac" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaDataStruct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com.knowbox.dijkstra" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="first-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -322,7 +339,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KruskalCase">
+  <component name="RunManager" selected="Application.DijkstraAlgorithm">
+    <configuration name="DijkstraAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DijkstraAlgorithm" />
+      <module name="first-demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GreedyAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GreedyAlgorithm" />
       <module name="first-demo" />
@@ -344,13 +368,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ViolenceMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ViolenceMatch" />
-      <module name="first-demo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="primAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="primAlgorithm" />
       <module name="first-demo" />
@@ -360,11 +377,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DijkstraAlgorithm" />
         <item itemvalue="Application.KruskalCase" />
         <item itemvalue="Application.primAlgorithm" />
         <item itemvalue="Application.GreedyAlgorithm" />
         <item itemvalue="Application.KmpAlgorithm" />
-        <item itemvalue="Application.ViolenceMatch" />
       </list>
     </recent_temporary>
   </component>
@@ -406,7 +423,7 @@
       <workItem from="1566207029071" duration="7737000" />
       <workItem from="1566350730955" duration="3250000" />
       <workItem from="1566387519413" duration="1059000" />
-      <workItem from="1566525092620" duration="51645000" />
+      <workItem from="1566525092620" duration="58158000" />
     </task>
     <task id="LOCAL-00001" summary="linkedList update">
       <created>1561463725671</created>
@@ -541,16 +558,24 @@
       <option name="project" value="LOCAL" />
       <updated>1566994634342</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="kruskal">
+      <created>1567070656397</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1567070656397</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255399000" />
+    <option name="totallyTimeSpent" value="261912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-81" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1682641" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1682641" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -559,7 +584,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32928064" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26342452" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26342452" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39918947" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -644,7 +669,8 @@
     <MESSAGE value="图" />
     <MESSAGE value="kmp" />
     <MESSAGE value="greedy" />
-    <option name="LAST_COMMIT_MESSAGE" value="greedy" />
+    <MESSAGE value="kruskal" />
+    <option name="LAST_COMMIT_MESSAGE" value="kruskal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -669,7 +695,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/knowbox/Calculator.java" />
     <entry file="file://$PROJECT_DIR$/src/com.knowbox.linkedList/DoubleLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -1039,8 +1064,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com.knowbox.kruskal/KruskalCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        <state relative-caret-position="646">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.knowbox.dijkstra/DijkstraAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="190" column="9" lean-forward="true" selection-start-line="190" selection-start-column="9" selection-end-line="190" selection-end-column="9" />
+          <folding>
+            <element signature="e#1173#1174#0" expanded="true" />
+            <element signature="e#1895#1896#0" expanded="true" />
+            <element signature="e#1935#1936#0" expanded="true" />
+            <element signature="e#2079#2080#0" expanded="true" />
+            <element signature="e#2104#2105#0" expanded="true" />
+            <element signature="e#2251#2252#0" expanded="true" />
+            <element signature="e#2282#2283#0" expanded="true" />
+            <element signature="e#2411#2412#0" expanded="true" />
+            <element signature="e#2435#2436#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
